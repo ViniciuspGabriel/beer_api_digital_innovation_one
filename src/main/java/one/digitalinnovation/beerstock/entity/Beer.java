@@ -12,8 +12,10 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+// Gera automaticamente Getters e Setters
 @Data
+
+//Mapeamento do JPA das tabelas
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor

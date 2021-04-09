@@ -14,8 +14,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
+/* Indica que a classe vai ser gerenciada pelo spring */
 @Service
+
+//Faz a inserção do construtor da classe
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class BeerService {
 
